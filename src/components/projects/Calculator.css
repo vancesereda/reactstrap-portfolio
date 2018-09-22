@@ -1,0 +1,22 @@
+.padding-0 {
+    padding:0 0 0 0 !important;
+}
+
+
+@media screen and (max-width: 720px) {
+
+    .calc-resize {
+        font-size: 100px !important;
+    }
+
+}
+@media screen and (min-width: 720px) {
+
+    .calc-resize {
+        width: 45% !important
+    }
+
+}
+
+
+

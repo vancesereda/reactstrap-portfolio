@@ -1,0 +1,92 @@
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.bg-top-div {
+
+
+
+  /* background: #757F9A;  fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #D7DDE8, #757F9A); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /* background: #ADA996; 
+  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); 
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); 
+   */
+
+
+
+
+  background: #f9f9f9; 
+ 
+
+
+}
+
+.padding-0 {
+ padding-left: 0;
+}
+
+@media only screen and (min-width: 600px) {
+
+  p.contact {
+
+    position: fixed;
+    bottom: 1vh;
+    padding: 20pt;
+    padding-left: 20pt;
+    margin-bottom: 0;
+    right: 20px;
+    text-align: right;
+
+  }
+
+
+  p.contact, p.contact a {
+
+    font-size: 10pt;
+    line-height: 14pt;
+    letter-spacing: 0.5pt;    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    /* background-color: #f1f1f1; */
+    background-color: transparent
+
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .contact {
+    display:none;
+  }
+  
+}

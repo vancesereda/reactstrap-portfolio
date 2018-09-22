@@ -1,0 +1,15 @@
+.project-border {
+   
+    padding: 3em 1em 1em;
+
+    border: 1px solid #d8d8d8;
+
+    
+}
+
+.in-between {
+    padding-top: 10px;
+    color: grey;
+    font-weight:300;
+    font-size: 11px;
+}

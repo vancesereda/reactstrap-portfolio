@@ -1,0 +1,109 @@
+
+.avatar {
+    vertical-align: middle;
+    text-align: center;
+    position: fixed;
+    top: 25vh;
+    left: 0;
+    margin-bottom:25vh
+}
+
+
+.icon-padding {
+    margin-top: 10px;
+    font-size: 30px;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+
+}
+
+
+
+
+
+
+.main {
+    /* prepare .main to center .blue-circle */
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    height:95vh;
+}
+/*.pink-div {
+    background-color: pink;
+    height: 30vh;
+}
+.yellow-div {
+    background-color: yellow;
+    height: 30vh;
+}*/
+.blue-circle-div {
+    border-radius: 50%;
+    height: 30vh;
+    width: 30vh;
+    /* center .blue-circle inside .main */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top:7vh;
+    /* center .text-div inside .blue-circle using flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.padding {
+    padding-top: 16vh;
+}
+.jumbotron-container {
+    /* background: #747c83;  fallback for old browsers */
+    background: transparent !important
+    /* background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #eef2f3, #8e9eab); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* padding-top: 20vh; */
+
+}
+
+
+h1.jumbotron-text {
+    font-size: 4vw;
+}
+
+h2.jumbotron-text {
+    font-size: 1.25rem;
+}
+
+@media only screen and (max-width: 700px) {
+
+    h1.jumbotron-text {
+        font-size: 7vw !important
+    }
+    h2.jumbotron-text {
+        font-size: 3.9vw;
+    }
+    
+
+}
+.fontawesome {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.vert {
+    border-right: 1px solid #000000;
+}
+
+
+.bg-bottom-div {
+    background: #f1f1f1; 
+    height:70vh;
+}

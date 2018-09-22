@@ -1,0 +1,173 @@
+.app-background {
+    background: #ffffff;
+
+}
+
+.img-resize {
+    height: 100px;
+    width: auto;
+}
+
+
+.row-1 {
+
+    margin-bottom: 3vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/*.daily-summary {  
+ 
+}*/
+
+@media screen and (max-width: 750px) {
+    .app-background {
+        background: #ffffff;
+        
+    }
+    
+    .main-weather-icon {
+        margin-top: 25px;
+        font-size:75px;
+    }
+    .main-weather-text {
+        display: block;
+        font-size: 50px
+    }
+    .left-side {
+        text-align: left;
+    }
+    .left-side h2 {
+        font-size: 25px;
+        display:block;
+    }
+
+    .left-side h3 {
+        color: grey;
+        font-size: 15px;
+        display:block;
+    }
+    
+    .right-side, .right-side h3 {
+        color: grey;
+        text-align: right;
+        margin-top: 25px;
+        font-size: 12px;
+    }
+
+    .scroll-grid {
+        display: block;
+        width: 100% !important;
+        
+        font-family: 'Open Sans', sans-serif;
+        font-size: 11px;
+    }
+
+    .scroll-grid p {
+        margin-bottom: 13px;
+        color: grey;
+    }
+
+    .weather-icon {
+        font-size:38px;
+        margin-bottom: 5px
+    }
+
+    .overflow {
+        flex-wrap: nowrap !important;
+        overflow-x: scroll;
+    }
+    sup {
+        vertical-align:super;
+        font-size:25%;
+    }
+
+    .padding-0 {
+        padding: 0 0 0 0;
+    }
+    .lg-view {
+        display:none;
+    }
+    
+}
+
+@media screen and (min-width: 750px) {
+
+    .main-weather-icon {
+        display:block;
+        font-size:95px;
+    }
+    .main-weather-text {
+        display: block;
+        font-size: 65px
+    }
+    .left-side {
+        text-align: left;
+    }
+    .left-side h2 {
+        font-size: 25px;
+        display:block;
+    }
+
+    .left-side h3 {
+        margin-bottom: 2px;
+        color: grey;
+        font-size: 15px;
+        display:block;
+    }
+    .lg-view {
+        display:inline-block;
+    }
+
+    .right-side {
+        /* color: grey; */
+        text-align: right;
+        font-size: 16px;
+    }
+    .right-side h3 {
+        margin-top: 35px;
+        margin-bottom: 2px;
+        color: grey;
+        font-size: 15px;
+        display:block;
+    }
+    sup {
+        vertical-align:super;
+        font-size:25%;
+    }
+
+    .scroll-grid {
+        display: block;
+        width: 100% !important;
+        
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+    }
+
+    .scroll-grid p {
+        margin-bottom: 13px;
+        color: grey;
+    }
+
+    .weather-icon {
+        font-size:38px;
+        margin-bottom: 5px
+    }
+
+
+
+
+}
+
+.transparent-input {
+    color: black !important;
+    padding-left:0px;
+    font-size: 20px;
+    background: transparent;
+    border: none;
+    overflow-x: scroll
+}
+.form-control::placeholder {
+    color: black !important
+}
